@@ -1,0 +1,63 @@
+{
+  "id": "frontiers-of-alchemy",
+  "title": "Frontiers of Alchemy",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "url": "https://github.com/LionsBrainMedia/frontiers-of-alchemy",
+  "packs": [
+    {
+      "name": "alchemist-research-fields",
+      "label": "Alchemist Research Fields",
+      "path": "packs/alchemist-research-fields",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "alchemical-items",
+      "label": "Alchemical Items",
+      "path": "packs/alchemical-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "using-alchemical-bait",
+      "label": "Using Alchemical Bait",
+      "path": "packs/using-alchemical-bait",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+],
+
+
+	"flags": {
+		"frontiers-of-alchemy": {
+			"pf2e-homebrew":{
+				"equipmentTraits": {
+					"bait": {"label": "Bait", "description": "Bait"},
+					"hallucinogen": {"label": "Hallucinogen", "description": "Hallucinogen"}
+				}
+			}
+		}
+	}
+
+
+
+}
